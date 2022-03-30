@@ -6,3 +6,4 @@ display current directory contents including hidden files
 display directory contents including hidden files with uids numerically
 create a directory im /tmp
 move betty from /tmp/ to /tmp/my_first_directory
+deleting a file
