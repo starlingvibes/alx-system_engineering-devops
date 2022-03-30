@@ -8,3 +8,4 @@ create a directory im /tmp
 move betty from /tmp/ to /tmp/my_first_directory
 deleting a file
 deleting a directory
+change directory one level up
