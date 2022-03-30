@@ -9,3 +9,4 @@ move betty from /tmp/ to /tmp/my_first_directory
 deleting a file
 deleting a directory
 change directory one level up
+list files from multiple directories
