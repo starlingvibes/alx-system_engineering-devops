@@ -12,3 +12,4 @@ change directory one level up
 list files from multiple directories
 display type of file
 creating symbolic links
+copying html files
