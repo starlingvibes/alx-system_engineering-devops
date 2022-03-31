@@ -14,3 +14,4 @@ display type of file
 creating symbolic links
 copying html files
 move files beginning with an uppercase letter
+delete files ending with ~
