@@ -8,3 +8,4 @@ add multiple permissions to a file
 adding execution permissions to everybody
 adding select permissions
 setting file mode
+dynamically setting file permissions mode
