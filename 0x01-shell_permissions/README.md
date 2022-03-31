@@ -13,3 +13,4 @@ adding permissions to directories
 create a directory with permissions simultaneously
 change the group of a file
 change owner and group owner
+changing permissions for a symbolic link
