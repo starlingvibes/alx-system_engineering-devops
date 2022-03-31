@@ -9,3 +9,4 @@ adding execution permissions to everybody
 adding select permissions
 setting file mode
 dynamically setting file permissions mode
+adding permissions to directories
