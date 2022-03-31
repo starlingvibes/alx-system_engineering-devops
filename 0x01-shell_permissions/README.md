@@ -7,3 +7,4 @@ add execute permissions to the owner of a file
 add multiple permissions to a file
 adding execution permissions to everybody
 adding select permissions
+setting file mode
