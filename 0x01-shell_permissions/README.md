@@ -10,3 +10,4 @@ adding select permissions
 setting file mode
 dynamically setting file permissions mode
 adding permissions to directories
+create a directory with permissions simultaneously
