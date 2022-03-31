@@ -16,3 +16,4 @@ copying html files
 move files beginning with an uppercase letter
 delete files ending with ~
 recursively create directories
+list all directories with commas, / and end list with a new line
