@@ -12,4 +12,5 @@ deletes files with .js extension
 count the number of directories and sub-directories
 sort files from newest to the oldest
 sort unique words
-lines must contain "root" 
+lines must contain "root"
+count number of lines containing "bin" 
