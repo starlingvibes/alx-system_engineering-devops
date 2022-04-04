@@ -22,4 +22,5 @@ removing characters from a string
 reverse the input
 display users and their home directories
 find all empty files and directories in the current directory and sub-directories
-sorting in byte code order 
+sorting in byte code order
+displaying the first character of every line 
