@@ -17,4 +17,5 @@ count number of lines containing "bin"
 display a pattern and 3 lines after
 display lines not containing a pattern
 display lines starting with a letter
-replacing characters 
+replacing characters
+removing characters from a string 
