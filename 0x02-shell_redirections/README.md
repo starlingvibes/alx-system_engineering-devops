@@ -6,4 +6,5 @@ display the last 10 lines of a file
 display the first 10 lines of a file
 display the nth line of a file
 creating a file with special characters
-redirecting output into a file 
+redirecting output into a file
+duplicate the last line of a file 
