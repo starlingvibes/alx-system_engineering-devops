@@ -8,4 +8,5 @@ display the nth line of a file
 creating a file with special characters
 redirecting output into a file
 duplicate the last line of a file
-deletes files with .js extension 
+deletes files with .js extension
+count the number of directories and sub-directories 
