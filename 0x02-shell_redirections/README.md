@@ -10,4 +10,5 @@ redirecting output into a file
 duplicate the last line of a file
 deletes files with .js extension
 count the number of directories and sub-directories
-sort files from newest to the oldest 
+sort files from newest to the oldest
+sort unique words 
