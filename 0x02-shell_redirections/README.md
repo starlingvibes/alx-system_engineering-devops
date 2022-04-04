@@ -18,4 +18,5 @@ display a pattern and 3 lines after
 display lines not containing a pattern
 display lines starting with a letter
 replacing characters
-removing characters from a string 
+removing characters from a string
+reverse the input 
