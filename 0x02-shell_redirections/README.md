@@ -20,4 +20,5 @@ display lines starting with a letter
 replacing characters
 removing characters from a string
 reverse the input
-display users and their home directories 
+display users and their home directories
+find all empty files and directories in the current directory and sub-directories 
