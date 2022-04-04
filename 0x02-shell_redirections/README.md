@@ -16,4 +16,5 @@ lines must contain "root"
 count number of lines containing "bin"
 display a pattern and 3 lines after
 display lines not containing a pattern
-display lines starting with a letter 
+display lines starting with a letter
+replacing characters 
