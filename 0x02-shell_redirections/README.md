@@ -19,4 +19,5 @@ display lines not containing a pattern
 display lines starting with a letter
 replacing characters
 removing characters from a string
-reverse the input 
+reverse the input
+display users and their home directories 
