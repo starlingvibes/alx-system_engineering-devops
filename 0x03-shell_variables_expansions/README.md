@@ -11,3 +11,7 @@ breath to the power of love
 convert from base 2 to base 10
 print all possible combinations of two letters except oo
 floating point numbers
+decimal to hexadecimal
+rot13 encryption
+print odd lines
+add two number in base n
