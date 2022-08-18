@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# until loop bash
+
+a=10
+until [ $a == 0 ]
+do
+	echo "Best School";
+	((--a));
+done;
