@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # fizzbuzz - 1 to 100
 
 COUNTER=1
