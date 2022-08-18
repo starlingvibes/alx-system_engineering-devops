@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # displays superstitious numbers from 1 to 20.
 
 COUNTER=1

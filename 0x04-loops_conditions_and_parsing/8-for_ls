@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # formats display of current working directory
 
 for x in *
