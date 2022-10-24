@@ -1,13 +1,29 @@
 #!/usr/bin/env bash
-# Configures a new Ubuntu server with a HAproxy load-balancer
-apt-get -y install software-properties-common
-add-apt-repository -y ppa:vbernat/haproxy-1.8
-apt-get -y update
-apt-get -y install haproxy=1.8.\*
-sed -i '/errorfile 504/a listen starlingroot' /etc/haproxy/haproxy.cfg
-sed -i '/listen starlingroot/a         bind :80' /etc/haproxy/haproxy.cfg
-sed -i '/bind :80/a         mode http' /etc/haproxy/haproxy.cfg
-sed -i '/mode http/a         server 46967-web-01 35.168.112.27:80 check' /etc/haproxy/haproxy.cfg
-sed -i '/server 46967-web-01 35.168.112.27:80 check/a         server 46967-web-02 54.174.75.101:80 check' /etc/haproxy/haproxy.cfg
-sed -i '/#EXTRAOPTS="-de -m 16"/a ENABLED=1' /etc/default/haproxy
-service haproxy start
+# Install the HAProxy and configure it for 2 machines
+
+# Update & Upgrade dependencies and packages
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get install -y haproxy
+
+# Configure HAProxy init
+echo "ENABLED=1" >> /etc/default/haproxy
+
+# Create Backup of haproxy.cfg and HAProxy file
+sudo cp /etc/default/haproxy /etc/default/haproxy.bak
+sudo cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.bak
+
+# Configure Round Robin
+echo "
+# Load balanced Pool
+frontend front
+        bind *:80
+	    default_backend web-back
+backend web-back
+        balance roundrobin
+        server 46967-web-01 35.168.112.27:80 check
+        server 46967-web-02 54.174.75.101:80 check" >> /etc/haproxy/haproxy.cfg
+
+# Restart the HAProxy
+sudo service haproxy reload
+sudo service haproxy restart
