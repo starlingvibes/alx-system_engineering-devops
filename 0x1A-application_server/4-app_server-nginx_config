@@ -22,9 +22,9 @@ server {
 	}
 
 	#0x1A-application_server - 4-app_server-nginx_config
-	location / {
-		proxy_pass http://127.0.0.1:5003/2-hbnb;
-	}
+	#location / {
+	#	proxy_pass http://127.0.0.1:5003/2-hbnb;
+	#}
 
 	#0x1A-application_server - 4-app_server-nginx_config
 	location /static {
