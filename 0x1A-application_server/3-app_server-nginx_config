@@ -6,6 +6,11 @@ server {
                  proxy_pass http://0.0.0.0:5000/airbnb-onepage/;
         }
 
+	#0x1A-application_server - 3-app_server-nginx_config
+	location ~ /number_odd_or_even/(\d+)$ {
+		proxy_pass http://0.0.0.0:5001/number_odd_or_even/$1;
+	}
+
 	# 0x1A-application_server - 3-app_server-nginx_config
 	location ~ /airbnb-dynamic/number_odd_or_even/(\d+)$ {
 		proxy_pass http://0.0.0.0:5001/number_odd_or_even/$1;
